@@ -2,6 +2,12 @@
 GENERAL
 *******************************************/
 
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto Condensed";
+    color: #aebcb9;
+    background-color: #0d0d0d;
+}
 .wrap {
     width: 90%;
     margin: 0 auto;
@@ -100,7 +106,6 @@ background: linear-gradient(red, yellow);
 .text {
     font-size: 3em;
 }
-
 .text li {
     padding: 23px;
 }
@@ -286,4 +291,26 @@ background: linear-gradient(red, yellow);
 }
 .demo-3 .grid a:hover figcaption h2 {
     transform: translateY(5px);
+}
+
+/* icons hover effect */
+.fa-effect-6 .fa {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+    transition: background 0.2s,
+    color 0.2s;
+}
+.no-touch .fa-effect-6 .hi-icon:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #64bb5d;
+}
+.no-touch .fa-effect-6 .hi-icon:hover:before {
+    animation: spinAround 2s linear infinite;
+}
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
