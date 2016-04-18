@@ -71,29 +71,27 @@ footer a {
     transition: 2s;
     color: #222;
 }
-.logo {
-    font-size: 2em;
-    color: #AEBCB9;
+
+/*.logo {*/
+
+font-size: 3em;
+color: #AEBCB9;
+
 }
 
 /* For browsers that do not support gradients */
-
 background: -webkit-linear-gradient(red, yellow);
 
 /* For Safari 5.1 to 6.0 */
-
 background: -o-linear-gradient(red, yellow);
 
 /* For Opera 11.1 to 12.0 */
-
 background: -moz-linear-gradient(red, yellow);
 
 /* For Firefox 3.6 to 15 */
-
 background: linear-gradient(red, yellow);
 
 /* Standard syntax */
-
 
 }
 
@@ -314,8 +312,7 @@ background: linear-gradient(red, yellow);
         transform: rotate(360deg);
     }
 }
-
-.portfolio h1{
+.portfolio h1 {
     text-align: center;
     letter-spacing: 4px;
 }
