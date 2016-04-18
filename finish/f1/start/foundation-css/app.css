@@ -51,9 +51,11 @@ footer a {
 }
 .row {
     max-width: 1350px;
+    ;
 }
 .menu {
-    font-size: 1.6em;
+    padding-top: 12px;
+    font-size: 1em;
 }
 .menu a {
     color: #FFF;
@@ -66,7 +68,7 @@ footer a {
     font-size: 2em;
     color: white;
 }
-body {
+/*body {*/
     background: red;
     /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(red, yellow);
@@ -79,4 +81,10 @@ body {
     /* Standard syntax */
 }
 
+}
+
+.background02 {
+    background-image: url(../images/8424059190_db0d46d535_o-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
