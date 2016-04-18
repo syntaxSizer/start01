@@ -314,3 +314,8 @@ background: linear-gradient(red, yellow);
         transform: rotate(360deg);
     }
 }
+
+.portfolio h1{
+    text-align: center;
+    letter-spacing: 4px;
+}
