@@ -218,6 +218,10 @@ background: linear-gradient(red, yellow);
 }
 .grid svg path {
     fill: #fff;
+    transform: translateY(0);
+}
+.grid a:hover svg path {
+    transform:translateY(320px);
 }
 .grid a:hover figure img {
     opacity: 1;

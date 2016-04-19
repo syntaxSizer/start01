@@ -32,8 +32,12 @@ body {
 }
 
 .demo-5 {
-	background: #f8dab4;
-	color: #5c554c;
+     font-size: 1.6rem;
+    font-family: "Roboto Condensed";
+    color: #aebcb9;
+    background-color: #0d0d0d;
+
+
 }
 
 .demo-6 {
