@@ -104,6 +104,9 @@ background: linear-gradient(red, yellow);
 .text {
     font-size: 3em;
 }
+.text a {
+    color: #AAB8B5;
+}
 .text li {
     padding: 23px;
 }
@@ -322,5 +325,3 @@ background: linear-gradient(red, yellow);
     text-align: center;
     letter-spacing: 4px;
 }
-
-
