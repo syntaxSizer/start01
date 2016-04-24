@@ -325,3 +325,9 @@ background: linear-gradient(red, yellow);
     text-align: center;
     letter-spacing: 4px;
 }
+
+
+
+.cs-style-2 {
+    list-style: none;
+}
