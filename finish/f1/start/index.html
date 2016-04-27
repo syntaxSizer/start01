@@ -81,8 +81,8 @@
 
     <!--social media icons-->
     <div class="row height">
-        <div class="small-12 medium-6 large-4 column">&nbsp;</div>
-        <div class="small-12 medium-6 large-4 column">
+        <!--        <div class="small-12 medium-6 large-3 column">&nbsp;</div>-->
+        <div class="small-12 small-centered medium-6 large-6 column">
             <div class="menu-centered">
                 <ul class="menu text">
                     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -96,7 +96,7 @@
                 </ul>
             </div>
         </div>
-        <div class="small-12 medium-6 large-4 column">&nbsp;</div>
+        <!--        <div class="small-12 medium-6 large-3 column">&nbsp;</div>-->
     </div>
 
     <!--portfolio section row one-->
@@ -184,6 +184,7 @@
 
     <!-- about section-->
     <section class="row about" id="abt">
+        <div class="row">&nbsp;</div>
         <div class="column small-12 medium-6 large-1">&nbsp;</div>
         <div class="column small-12 medium-6 large-4">
 
@@ -285,11 +286,11 @@
     </section>
 
 
-    <section>
+    <section id="contact">
         <div class="row">
 
             <div class="column small-12 medium-1 large-1">&nbsp;</div>
-            <div class="column small-12 medium-5 large-6">
+            <div class="column small-12 medium-5 large-10">
 
                 <!-- contact form   -->
 
@@ -310,26 +311,29 @@
                     <span class="input input--haruki">
 					<input class="input__field input__field--haruki" type="text" id="input-3" />
 					<label class="input__label input__label--haruki" for="input-3">
-						<span class="input__label-content input__label-content--haruki">Email</span>
+
+						<span class="input__label-content input__label-content--haruki text-">Email</span>
                     </label>
                     </span>
-                </div>
-                <!--button-->
-                <div class="content" id="content">
-                    <div class="box bg-1">
-                        <button class="button button--tamaya button--border-thick" data-text="Send"><span>Send</span></button>
+                    <!--                    </div>-->
+
+
+                    <!--button-->
+                    <div class="content" id="content">
+                        <div class="box bg-1">
+                            <button class="button button--tamaya button--border-thick" data-text="Send"><span>Send</span></button>
+                        </div>
+
                     </div>
-
                 </div>
 
-
             </div>
 
-            <div class="column small-12 medium-5 large-4">
+            <!--            <div class="column small-12 medium-5 large-4">-->
 
-            </div>
+        </div>
 
-            <div class="column small-12 medium-1 large-1">&nbsp;</div>
+        <div class="column small-12 medium-1 large-1">&nbsp;</div>
 
 
         </div>
@@ -351,7 +355,7 @@
             [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
                 var menuItems = menu.querySelectorAll('.menu__link'),
                     setCurrent = function(ev) {
-                        ev.preventDefault();
+                        //                        ev.preventDefault();
 
                         var item = ev.target.parentNode; // li
 

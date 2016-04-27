@@ -102,13 +102,10 @@ background: linear-gradient(red, yellow);
     background-repeat: no-repeat;
 }
 .text {
-    font-size: 3em;
+    font-size: 2em;
 }
 .text a {
     color: #AAB8B5;
-}
-.text li {
-    padding: 23px;
 }
 .height {
     height: 300px;
@@ -325,9 +322,6 @@ background: linear-gradient(red, yellow);
     text-align: center;
     letter-spacing: 4px;
 }
-
-
-
 .cs-style-2 {
     list-style: none;
 }
