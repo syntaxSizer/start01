@@ -4,7 +4,7 @@
 ### one page website
 
 
-Foundation frimwork
+Foundation framework
 
 HTML&CSS
 javascript
