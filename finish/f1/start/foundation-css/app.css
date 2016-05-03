@@ -324,4 +324,5 @@ background: linear-gradient(red, yellow);
 }
 .cs-style-2 {
     list-style: none;
+    padding: 50px;
 }
