@@ -97,7 +97,7 @@ background: linear-gradient(red, yellow);
 
 }
 .background02 {
-    background-image: url(../images/8424059190_db0d46d535_o-2.jpg);
+/*    background-image: url(../images/8424059190_db0d46d535_o-2.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -325,4 +325,8 @@ background: linear-gradient(red, yellow);
 .cs-style-2 {
     list-style: none;
     padding: 50px;
+}
+
+.menu__list {
+    letter-spacing: 3px;
 }
